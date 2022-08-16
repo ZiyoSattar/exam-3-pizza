@@ -53,7 +53,6 @@ elRadioLabel3.appendChild(elRadio3);
 
 /* what to add to pizza */
 
-
 let arr = ["Pomidor", "Kurka goshti", " Zaytun", "Tuzlangan Bodring", "Qoziqorin", "Qazi"];
 for (let i = 0; i < arr.length; i++) {
 
@@ -68,6 +67,7 @@ for (let i = 0; i < arr.length; i++) {
   elList1.appendChild(elFormCheck);
   elFormCheck.prepend(elFormInput);
 }
+
 /* end*/
 
 
@@ -77,22 +77,22 @@ for (let i = 0; i < arr.length; i++) {
 let elLabelExtraCheck1 = document.querySelector(".form__check-extra-div-label-1")
 let elLabelExtraCheck2 = document.querySelector(".form__check-extra-div-label-2")
 
-let elCheckboxExtra1 = document.createElement("input")
-let elCheckboxExtra2 = document.createElement("input")
+let elCheckExtra1 = document.createElement("input")
+let elChekExtra2 = document.createElement("input")
 
-elCheckboxExtra1.setAttribute("class", " form__check-extra-div-checkbox ms-4 form-check-input");
-elCheckboxExtra2.setAttribute("class", " form__check-extra-div-checkbox ms-4 form-check-input");
-elCheckboxExtra1.setAttribute("type", "checkbox");
-elCheckboxExtra2.setAttribute("type", "checkbox");
-elCheckboxExtra1.setAttribute("value", "Achchiq");
-elCheckboxExtra2.setAttribute("value", "Sosiskali");
-elCheckboxExtra1.setAttribute("id", "extracheckbox1");
-elCheckboxExtra2.setAttribute("id", "extracheckbox2");
-elCheckboxExtra1.setAttribute("name", "Pizzaga qoshimcha");
-elCheckboxExtra2.setAttribute("name", "Pizzaga qoshimcha");
+elCheckExtra1.setAttribute("class", " form__check-extra-div-checkbox ms-4 form-check-input");
+elChekExtra2.setAttribute("class", " form__check-extra-div-checkbox ms-4 form-check-input");
+elCheckExtra1.setAttribute("type", "checkbox");
+elChekExtra2.setAttribute("type", "checkbox");
+elCheckExtra1.setAttribute("value", "Achchiq");
+elChekExtra2.setAttribute("value", "Sosiskali");
+elCheckExtra1.setAttribute("id", "extracheckbox1");
+elChekExtra2.setAttribute("id", "extracheckbox2");
+elCheckExtra1.setAttribute("name", "Pizzaga qoshimcha: ");
+elChekExtra2.setAttribute("name", "Pizzaga qoshimcha: ");
 
-elLabelExtraCheck1.appendChild(elCheckboxExtra1)
-elLabelExtraCheck2.appendChild(elCheckboxExtra2)
+elLabelExtraCheck1.appendChild(elCheckExtra1)
+elLabelExtraCheck2.appendChild(elChekExtra2)
 
 
 /* end */
